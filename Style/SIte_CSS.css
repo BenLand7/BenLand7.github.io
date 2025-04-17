@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: floralwhite;
+}
+
+table{
+    background-color: black;
+    border-style: dashed;
+    border-width: medium;
+    border-color: ghostwhite;
+    color: ghostwhite;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 50%;
+}
+
+#headshot{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}

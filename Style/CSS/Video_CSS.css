@@ -1,0 +1,31 @@
+header {
+    background-color: #8EB8E5;
+    text-align: center;
+    padding: 20px;
+}
+.nav-links {
+    margin: 0;
+    background-color: #8EB8E5;
+    text-decoration: none;
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+.nav-links .active{
+    color: white;
+    background-color: #7C99B4;
+}
+.nav-links a:hover:not(.active) {
+    background-color: #7C99B4;
+    color: white;
+}
+.nav-links a:visited {
+    color: white;
+}

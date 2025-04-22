@@ -1,0 +1,93 @@
+header {
+    background-color: #8EB8E5;
+    text-align: center;
+    padding: 20px;
+}
+footer {
+    background-color: #8EB8E5;
+    text-align: center;
+    padding: 10px;
+}
+.nav-links {
+    margin: 0;
+    background-color: #8EB8E5;
+    text-decoration: none;
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+.nav-links a.active{
+    color: white;
+    background-color: #7C99B4;
+}
+.nav-links a:hover:not(.active) {
+    background-color: #7C99B4;
+    color: white;
+}
+.nav-links a:visited {
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+  
+.box {
+    float: left;
+    width: 50%; /* three boxes (use 25% for four, and 50% for two, etc) */
+    padding: 10px; /* if you want space between the images */
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+h2{
+    margin-left: 50%;
+    text-align: center;
+}
+
+p{
+    margin-left: 50%;
+    text-align: left;
+}
+#aboutme{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#headshot{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    float: left;
+    margin-left: 10%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+    object-position: 125%, 50%;
+}
+h3{
+    color: #363946;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+table{
+    background-color: #8EB8E5;
+    color: #363946;
+    margin-left: 40%;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+#socials{
+    width: 10px;
+    height: 10px;
+}

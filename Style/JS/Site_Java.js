@@ -9,6 +9,15 @@ function typeEffect() {
         setTimeout(typeEffect, typingSpeed);
     }
 }
-
-// Start typing effect after the page loads
 window.onload = typeEffect;
+
+const toggle = document.querySelector("#toggle")
+
+toggle.onclick = function(){
+    document.body.style.backgroundColor = "#D34F73";
+}
+const set = document.querySelector("#set")
+
+set.onclick = function(){
+    document.body.style.backgroundColor = "white";
+}

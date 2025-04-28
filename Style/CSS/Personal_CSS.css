@@ -55,3 +55,6 @@ form {
   padding: 50px;
 }
 
+.blur {
+  filter: blur(5px); /* Adjust blur intensity */
+}

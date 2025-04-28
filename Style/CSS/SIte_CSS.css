@@ -8,6 +8,29 @@ footer {
     text-align: center;
     padding: 10px;
 }
+#typing-container {
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid black; /* Blinking cursor effect */
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+#typing-container {
+    animation: blink 0.7s infinite step-end;
+}
+
 .nav-links {
     margin: 0;
     background-color: #8EB8E5;
